@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qui veut gagner des millions</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./images/Logo-Qui-veut-gagner-des-millions.png"
+        alt="Logo Qui Veut Gagner Des Millions"
+      />
+    </header>
+    <main>
+      <section class="section-question">
+        <div class="question">
+          <p id="questionText"></p>
+        </div>
+        <div class="options">
+          <ul>
+            <li>
+              <button class="answer" data-correct="true" id="answerA"></button>
+            </li>
+            <li>
+              <button class="answer" data-correct="false" id="answerB"></button>
+            </li>
+            <li>
+              <button class="answer" data-correct="false" id="answerC"></button>
+            </li>
+            <li>
+              <button class="answer" data-correct="false" id="answerD"></button>
+            </li>
+          </ul>
+        </div>
+        <button id="nextQuestionBtn">Question suivante</button>
+      </section>
+      <section class="section-gain">
+        <div class="gain">
+          <p class="gain__number">12</p>
+          <p>1 Million €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">11</p>
+          <p>300 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">10</p>
+          <p>150 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">9</p>
+          <p>100 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">8</p>
+          <p>72 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">7</p>
+          <p>48 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">6</p>
+          <p>24 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">5</p>
+          <p>12 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">4</p>
+          <p>6 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">3</p>
+          <p>3 000 €</p>
+        </div>
+        <div class="gain">
+          <p class="gain__number">2</p>
+          <p>1 500 €</p>
+        </div>
+        <div class="gain current-gain">
+          <p class="gain__number">1</p>
+          <p>800 €</p>
+        </div>
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
