@@ -149,7 +149,7 @@ answers.forEach(function (reponse) {
       alert("FELICITATIONS !!! LE MILLION !!!!!");
       window.location.reload();
     }
-    if (previousGain && isCorrect) {
+    if (previousGain && isCorrect && !isQuestionAnswered) {
       previousGain.classList.add("current-gain");
     } else {
       currentGain.classList.add("current-gain");
