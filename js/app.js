@@ -145,7 +145,7 @@ answers.forEach(function (reponse) {
       previousGain = previousGain.previousElementSibling;
     }
 
-    if (currentNumber === 12) {
+    if (currentNumber === 12 && isCorrect) {
       alert("FELICITATIONS !!! LE MILLION !!!!!");
       window.location.reload();
     }
